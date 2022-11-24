@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "301691451240",
+    "firebase_url": "https://apptonghop-66bb0-default-rtdb.firebaseio.com",
+    "project_id": "apptonghop-66bb0",
+    "storage_bucket": "apptonghop-66bb0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301691451240:android:7cea0c9d0b033f9ae008dd",
+        "android_client_info": {
+          "package_name": "com.example.apptonghop_giuaki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301691451240-3klnv9jbn2mqsu560lq3s2df3ml4q07n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.apptonghop_giuaki",
+            "certificate_hash": "074c31f7a0987a40b25b11502e1b951b7127987a"
+          }
+        },
+        {
+          "client_id": "301691451240-kpnqidtimhilj8q2tn4aug99vnh3dugk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClx-6ZdyiWsn-bbnxe91GAwRgfcuE1X9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301691451240-kpnqidtimhilj8q2tn4aug99vnh3dugk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

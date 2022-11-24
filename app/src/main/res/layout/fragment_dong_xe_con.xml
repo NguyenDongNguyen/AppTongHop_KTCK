@@ -1,0 +1,157 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:weightSum="10"
+    android:orientation="horizontal"
+    android:layout_height="120dp">
+    <LinearLayout
+        android:layout_weight="2.5"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            app:cardCornerRadius="12dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imageViewHinh"
+                android:scaleType="centerCrop"
+                android:layout_width="80dp"
+                android:layout_height="80dp"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="7.5"
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:padding="17dp"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textviewTen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên"
+                android:textColor="#25BDB8"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textviewMoTa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mô Tả"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="italic"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="right">
+
+            <ImageView
+                android:id="@+id/imgPlus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/plus"
+                android:layout_toRightOf="@+id/imageViewHinh"
+
+                android:background="@null"
+                android:layout_marginTop="20dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgPlus"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/imageViewHinh"
+                android:background="@null"
+                android:src="@drawable/minus" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_weight="2.5"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:gravity="center"-->
+    <!--        android:layout_height="match_parent">-->
+    <!--        <ImageView-->
+    <!--            android:layout_width="50dp"-->
+    <!--            android:layout_height="50dp"-->
+    <!--            android:src="@drawable/ic_baseline_arrow_downward_24" />-->
+    <!--    </LinearLayout>-->
+
+
+</LinearLayout>
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageViewHinh"-->
+<!--        android:layout_width="120dp"-->
+<!--        android:layout_height="120dp"-->
+<!--        android:background="@drawable/background_border_img"-->
+<!--        android:padding="10dp"-->
+<!--        android:scaleType="centerCrop" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textviewTen"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_toRightOf="@+id/imageViewHinh"-->
+<!--        android:text="Tên"-->
+<!--        android:textColor="#ff00"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textviewMoTa"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/textviewTen"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_toRightOf="@+id/imageViewHinh"-->
+<!--        android:text="Mô tả"-->
+<!--        android:textColor="#003cff"-->
+<!--        android:textSize="22sp" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imgPlus"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/plus"-->
+<!--        android:layout_toRightOf="@+id/imageViewHinh"-->
+<!--        android:layout_marginLeft="230dp"-->
+<!--        android:background="@null"-->
+<!--        android:layout_marginTop="20dp"/>-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/imgPlus"-->
+<!--        android:layout_marginLeft="230dp"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:layout_toRightOf="@+id/imageViewHinh"-->
+<!--        android:background="@null"-->
+<!--        android:src="@drawable/minus" />-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="34dp"-->
+    <!--        android:layout_height="34dp"-->
+    <!--        android:id="@+id/cong"-->
+    <!--        android:layout_toRightOf="@+id/textviewTen"-->
+    <!--        android:text="+"-->
+    <!--        android:textSize="20dp"-->
+    <!--        android:textColor="#3F5185"-->
+    <!--        android:textStyle="bold"-->
+    <!--        android:background="@drawable/boder"-->
+    <!--        android:layout_marginLeft="150dp" />-->
+
+
